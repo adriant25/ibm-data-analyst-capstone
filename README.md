@@ -59,16 +59,22 @@ The dataset is loaded directly from the source URL — no manual download requir
 
 ```
 ├── data-collection/
-│   ├── 01_Job_Data_API.ipynb            # Fetch jobs.json, filter locally → xlsx
-│   └── 02_Popular_Languages_Scraping.ipynb  # Scrape HTML table → CSV
+│   ├── 01_Job_Data_API.ipynb                    # Fetch jobs.json, filter locally → xlsx
+│   ├── 02_Popular_Languages_Scraping.ipynb      # Scrape HTML table → CSV
+│   └── outputs/
+│       ├── job-postings.xlsx                    # Job counts by city (7 cities)
+│       ├── job-postings-technologies.xlsx       # Job counts by technology (12 techs)
+│       └── popular-languages.csv               # Language salaries (10 languages)
 ├── capstone-project/
-│   ├── Capstone_Survey_Analysis.ipynb   # Main analysis notebook (Steps 1–8 + visualizations)
-│   ├── charts/                          # Generated chart PNGs (6 charts)
+│   ├── Capstone_Survey_Analysis.ipynb           # Full 8-step analysis pipeline
+│   ├── charts/                                  # 6 generated chart PNGs
 │   ├── Presentation/
-│   │   └── capstone_v4.pptx             # Final 20-slide presentation
+│   │   ├── capstone_v4.pptx                     # Final 20-slide presentation
+│   │   └── Data Analyst Capstone Project.pdf    # PDF export
 │   └── IBM Cognos Dashboard/
-│       └── DashBoard IBM Course Project.pdf
-└── lab_codes_practice/                  # 23 IBM course practice notebooks
+│       └── DashBoard IBM Course Project.pdf     # Interactive dashboard (PDF)
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -77,10 +83,11 @@ The dataset is loaded directly from the source URL — no manual download requir
 
 | Deliverable | Description |
 |-------------|-------------|
-| `Capstone_Survey_Analysis.ipynb` | Full 8-step analysis pipeline with findings |
+| `Capstone_Survey_Analysis.ipynb` | Full 8-step analysis pipeline with findings on every step |
 | `capstone_v4.pptx` | 20-slide presentation for stakeholders |
-| `DashBoard IBM Course Project.pdf` | IBM Cognos Analytics interactive dashboard |
-| `charts/` | 6 publication-ready chart images |
+| `Data Analyst Capstone Project.pdf` | PDF export of the final presentation |
+| `DashBoard IBM Course Project.pdf` | IBM Cognos Analytics dashboard (3 tabs) |
+| `charts/` | 6 publication-ready chart PNGs |
 
 ---
 
