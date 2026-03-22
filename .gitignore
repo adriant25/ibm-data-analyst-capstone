@@ -17,6 +17,14 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+~$*
 
-# Claude Code internal file
+# Data collection outputs (generated at runtime)
+data-collection/outputs/*.xlsx
+data-collection/outputs/*.csv
+
+# Claude Code internal files
 CLAUDE.md
+SKILL.md
+.claude/
+.venv/
