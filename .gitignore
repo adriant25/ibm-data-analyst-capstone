@@ -1,0 +1,22 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Generated data files (downloaded/created at runtime)
+*.sqlite
+*.db
+survey_data.csv
+survey_data_clean.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code internal file
+CLAUDE.md
